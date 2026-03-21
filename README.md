@@ -64,6 +64,39 @@ python scripts/easy_pr.py
 
 详细步骤请查看 [使用与贡献指南](/pages/guide.mdx)
 
+
+
+## 🤖 AI Agent 辅助贡献
+
+如果你正在使用 AI 编程助手（如 Claude Code、GitHub Copilot Workspace 等），可以让 AI Agent 帮你快速完成贡献流程。
+
+### 使用方法
+
+将 [`Agent/AGENT_GUIDE.md`](Agent/AGENT_GUIDE.md) 文件的内容提供给 AI Agent，它将自动：
+
+- ✅ 识别课程和资料类型
+- ✅ 按规范移动文件到正确位置
+- ✅ 更新网站页面和导航
+- ✅ 创建 Git 提交和 PR
+
+### 示例提示词
+
+```
+请读取 Agent/AGENT_GUIDE.md 文件，然后帮我添加以下资料：
+- 课程：数据结构
+- 文件：/tmp/2024期末试卷.pdf
+- 类型：期末考试
+- 年份：2024
+```
+
+### 适用场景
+
+- 📝 不熟悉 Git 操作的同学
+- 🚀 快速批量添加资料
+- 🤖 自动化处理重复性工作
+
+**注意**：AI Agent 会直接操作你的仓库，请确保已 Fork 并拥有相应权限。
+
 ## 免责声明
 
 - 本站所有资料仅供学习交流使用
@@ -71,3 +104,4 @@ python scripts/easy_pr.py
 - 如有原作者/整理者希望维护自己的合法权利，请联系我们删除
 - 请勿将资料用于商业用途
 
+---
