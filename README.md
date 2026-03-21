@@ -38,6 +38,7 @@ pip install -r scripts/requirements.txt
 # 4. 将资料放入 upload/ 目录
 
 # 5. 运行脚本
+```
 python scripts/easy_pr.py
 ```
 
