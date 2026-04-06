@@ -50,7 +50,7 @@
 
 1. 在 `public/resources/` 下创建新目录
 2. 在 `pages/courses/` 下创建新的 `.mdx` 文件
-3. 在 `pages/courses/_meta.json` 中添加课程条目
+3. 在 `pages/courses/_meta.ts` 中添加课程条目
 
 ## 🐛 报告问题
 
